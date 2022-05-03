@@ -6,7 +6,7 @@ app.get('/', (req, res, next) => {
 });
 
 app.get('/hello', (req, res, next) => {
-  res.status(200).send('Voici une autre page qui est : Hello')
+  res.status(200).send('Voici rien')
 });
 
 app.get('/hello/:name', (req, res, next) => {
